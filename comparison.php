@@ -42,3 +42,10 @@ echo '<br>';
 var_dump(100.0 !== "100");
 echo '<br>';
 var_dump(100.0 !== 100);
+
+echo '<br>';
+var_dump(100 <=> 200); // -1
+echo '<br>';
+var_dump(100 <=> 100); // 0
+echo '<br>';
+var_dump(100 <=> 50); // 1
